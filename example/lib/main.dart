@@ -87,6 +87,7 @@ class CardListTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SerialPort('Com3');
     return Card(
       child: ListTile(
         title: Text(value ?? 'N/A'),
